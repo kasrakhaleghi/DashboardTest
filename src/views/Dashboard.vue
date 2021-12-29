@@ -11,11 +11,6 @@
       <div class="dashboard">
         <v-subheader class="d-flex justify-space-between align-center">
           <h3>Dashboard</h3>
-          <h3></h3>
-          <h3>Sparkline</h3>
-          <v-btn color="success" class="rounded-lg">
-            Go to Report
-          </v-btn>
         </v-subheader>
           <v-row>
             <v-col lg="7" cols="12">
