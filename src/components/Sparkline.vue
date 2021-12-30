@@ -27,8 +27,15 @@
         Sales Last Week
       </div>
     </v-card-text>
-
     <v-divider></v-divider>
+    <v-card-actions class="justify-center">
+      <v-btn
+        block
+        text
+      >
+        Go to Report
+      </v-btn>
+    </v-card-actions>
  </v-card>
 </template>
 
