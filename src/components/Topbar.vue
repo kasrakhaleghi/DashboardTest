@@ -21,7 +21,6 @@
             />
           </v-form>
       </v-col>
-
       <v-spacer></v-spacer>
        <v-menu
           offset-y     
@@ -39,7 +38,6 @@
         <v-badge offset-x="10" offset-y="10" color="red" content="5">
           <v-icon color="white">mdi-bell</v-icon>
         </v-badge>
-        
         </span>
       </template>
       <v-list>
@@ -55,11 +53,9 @@
             mdi-numeric-5-circle
           </v-icon>
         </v-list-item-icon>
-
         <v-list-item-content>
           <v-list-item-title v-text="item.title"></v-list-item-title>
         </v-list-item-content>
-
         <v-list-item-avatar>
           <v-img :src="item.avatar"></v-img>
         </v-list-item-avatar>
@@ -70,11 +66,9 @@
       <template v-slot:activator="{ on, attrs }">
           <span class="mx-5 mr-10" v-bind="attrs" v-on="on" style="cursor: pointer" >
             <v-chip link>
-              
                 <v-avatar size="20">
                   <img src="https://cdn.vuetifyjs.com/images/john.jpg" alt="john">
                 </v-avatar>
-
               <span>Kasra Khaleqi</span>
             </v-chip>
           </span>
@@ -95,11 +89,9 @@
         </v-list-item>
         <v-divider/>
         <v-list-item v-for="(menu,index) in menus" :key="index" link>
-       
           <v-list-item-icon>
             <v-icon>{{menu.icon}}</v-icon>
           </v-list-item-icon>
-       
           <v-list-item-content>
             <v-list-item-title>{{menu.title}}</v-list-item-title>
           </v-list-item-content>

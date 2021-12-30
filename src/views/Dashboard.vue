@@ -1,9 +1,7 @@
 <template>
-
 <v-app>
   <topbar @handeDrawer=" drawer = !drawer"/>
   <leftbar :drawer="drawer"/>
-    <!-- Provides the application the proper gutter -->
     <v-container 
     class="py-15 px-5"
     fluid>
