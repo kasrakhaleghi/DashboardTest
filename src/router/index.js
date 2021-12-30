@@ -5,7 +5,6 @@ import Dashboard from '../views/Dashboard.vue'
 
 
 Vue.use(VueRouter)
-
 const routes = [
   {
     path: '/home',
