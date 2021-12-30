@@ -21,7 +21,6 @@
         </v-sparkline>
       </v-sheet>
     </v-card-text>
-
     <v-card-text>
       <div class="text-h4 font-weight-thin">
         Sales Last Week
